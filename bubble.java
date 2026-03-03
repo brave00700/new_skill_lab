@@ -16,4 +16,14 @@ public class BubbleSort {
                     swapped = true;
                 }
             }
+	if (swapped){
+	   break;
+	}
+    }
+}
+
+public static void main(String []a){
+	int[] numbers = {5,3,8,4,2};
+
+}
 
