@@ -27,3 +27,11 @@ public static void main(String []a){
 
 }
 
+bubbleSort(numbers);
+
+        System.out.println("Sorted array:");
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+    }
+}
